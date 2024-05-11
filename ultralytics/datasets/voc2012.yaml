@@ -1,0 +1,56 @@
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: C:/Users/zhaor/PycharmProjects/ultralytics-main/datasets # dataset root dir
+train: voc2012/det/images/train  # train images (relative to 'path') 118287 images
+val: voc2012/det/images/val  # train images (relative to 'path') 5000 images
+road_seg_train: voc2012/seg/images/train   # road sematic segmentation data
+road_seg_val: voc2012/seg/images/val
+
+# Classes
+nc: 20  # number of classes
+segnc: 20 # number of seg
+
+names:
+  0: aeroplane
+  1: bicycle
+  2: bird
+  3: boat
+  4: bottle
+  5: bus
+  6: car
+  7: cat
+  8: chair
+  9: cow
+  10: diningtable
+  11: dog
+  12: horse
+  13: motorbike
+  14: person
+  15: pottedplant
+  16: sheep
+  17: sofa
+  18: train
+  19: tvmonitor
+
+
+segnames:
+  0: aeroplane
+  1: bicycle
+  2: bird
+  3: boat
+  4: bottle
+  5: bus
+  6: car
+  7: cat
+  8: chair
+  9: cow
+  10: diningtable
+  11: dog
+  12: horse
+  13: motorbike
+  14: person
+  15: pottedplant
+  16: sheep
+  17: sofa
+  18: train
+  19: tvmonitor
