@@ -1,1 +1,0 @@
-YOLO-FD: an accurate fish disease detection method based on multi-task learning
