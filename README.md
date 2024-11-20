@@ -23,14 +23,52 @@ The main contributions of **YOLO-FD**  are as follows:
 
 ### Experitment
 We used the VOC2012 segmentation dataset and Nocardiosis fish dataset (For some reason, the dataset is not public.) 
-as our datasets,and experiments are run on **NVIDIA RTX 3060**, The overall video effect is as shown in Visualization.
+as our datasets,and experiments are run on NVIDIA RTX 3060, The overall video effect is as shown in Visualization.
 
 ### Visualization
 ![gif](demo/v1.gif) ![gif](demo/v2.gif)
 
 ## Models
-You can get the model from <a href="https://github.com/CAIC-AD/YOLOPv2/releases/download/V0.0.1/yolopv2.pt">here</a>.
+You can get the pretrained model from <a href="https://github.com/feifei-Lee/YOLO-FD/blob/main/yolo-fd.pt">here</a>.
 
+## Quick Start
+### Basic environment
+```shell
+Python3.8 
+CUDA 11.8
+torch 1.10
+Ultralytics YOLOv8.0.117
+```
+```shell
+pip install -r requirements.txt
+```
+### Train
+First, prepare the dataset in the following format, 
+where class_weights.cache is automatically generated during first train and is used to balance the class weights.
+```
+📁 norcardia_disease_fish  
+├── 📁 det  
+│   ├── 📁 images  
+│   │   ├── 📁 train  
+│   │   └── 📁 val  
+│   ├── 📁 labels  
+│   │   ├── 📁 train  
+│   │   └──📁 val  
+├── 📁 seg  
+│   ├── 📁 images  
+│   │   ├── 📁 train  
+│   │   └── 📁 val  
+│   ├── 📁 labels  
+│   │   ├── 📁 train  
+│   │   ├── 📁 val  
+│   │   └── 📄 class_weights.cache  
+```
+Then add your own customized dataset yaml file in ultralytics/datasets, set your customized yaml file name in train.py.
+Run the code
+```shell
+python train.py
+```
+The same goes for predict and val
 
 ### Demo Test
 
