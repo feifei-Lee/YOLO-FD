@@ -86,7 +86,7 @@ YOLO-FD is released under the [MIT Licence](LICENSE).
 If you find YOLO-FD is useful in your research or applications, please consider giving us a star and citing it by the following BibTeX entry.
 ```bibtex
 @article{YOLO-FD,
-  title={YOLO-FD: an accurate fish disease detection method based on multi-task learning},
+  title={YOLO-FD: An accurate fish disease detection method based on multi-task learning},
   author={Li, Xuefei and Zhao Shili and Chen, Chunlin and Cui, Hongwu and Li, Daoliang and Zhao, Ran},
   journal={Expert Systems With Applications},
   year={2024}
