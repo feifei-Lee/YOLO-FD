@@ -73,9 +73,9 @@ The same goes for predict and val
 ### Demo Test
 
 We provide two testing method.You can store the image or video.
-
+And the test images and test videos are under demo folder
 ```shell
-python demo.py  --source data/example.jpg
+python predict.py
 ```
 
 ## License
