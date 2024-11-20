@@ -7,7 +7,7 @@ def val(cfg=DEFAULT_CFG, use_python=False):
     """Validate trained YOLO model on validation dataset."""
     model = cfg.model or 'yolov8n.pt'
     data = 'norcardis_disease.yaml'
-    model = r'C:\Users\zhaor\PycharmProjects\ultralytics-git\pre_weights\mtl\pcgrad+uncert\weights\best.pt'
+    model = './yolo-fd.pt'
     batch = 8   # cfg.batch * 2
     args = dict(model=model, data=data, batch=batch, mode="val", imgsz=640)
     args = get_cfg(cfg, overrides=args)
