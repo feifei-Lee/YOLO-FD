@@ -64,16 +64,16 @@ where class_weights.cache is automatically generated during first train and is u
 │   │   └── 📄 class_weights.cache  
 ```
 Then add your own customized dataset yaml file in ultralytics/datasets, set your customized yaml file name in train.py.
-Run the code
+Run the code.
 ```shell
 python train.py
 ```
-The same goes for predict and val
+The same goes for predict and val.
 
 ### Demo Test
 
 We provide two testing method.You can store the image or video.
-And the test images and test videos are under the demo folder
+And the test images and test videos are under the demo folder.
 ```shell
 python predict.py
 ```
