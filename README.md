@@ -73,7 +73,7 @@ The same goes for predict and val
 ### Demo Test
 
 We provide two testing method.You can store the image or video.
-And the test images and test videos are under demo folder
+And the test images and test videos are under the demo folder
 ```shell
 python predict.py
 ```
