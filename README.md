@@ -55,9 +55,6 @@ where class_weights.cache is automatically generated during first train and is u
 │   │   ├── 📁 train  
 │   │   └──📁 val  
 ├── 📁 seg  
-│   ├── 📁 images  
-│   │   ├── 📁 train  
-│   │   └── 📁 val  
 │   ├── 📁 labels  
 │   │   ├── 📁 train  
 │   │   ├── 📁 val  
