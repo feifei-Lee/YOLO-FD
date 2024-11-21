@@ -13,7 +13,7 @@ def train(cfg=DEFAULT_CFG, use_python=False):
     epochs = 300
     pre_weights = None # './yolov8s.pt'
     batch = 8
-    mtl = 0  # 0 equal, 1 uncertainty, 2 gradnorm, 3 DWA, -1 by turn
+    mtl = 0  # 0 equal, 1 uncertainty
     pcgrad = False
     cagrad = False
     args = dict(model=model,

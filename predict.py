@@ -6,7 +6,7 @@ def predict(cfg=DEFAULT_CFG, use_python=False):
     """Runs YOLO model inference on input image(s)."""
     # model = cfg.model or 'yolov8n.pt'
     model = 'yolo-fd.pt'
-    source = './demo/0909_023029.jpg'
+    source = './demo/v1.mp4'
     args = dict(model=model, source=source)
     if use_python:
         from ultralytics import YOLO
