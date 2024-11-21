@@ -7,6 +7,7 @@ multi-task learning </h2>
 
 ## Update
 * `November 20, 2024`: Updated and improved the readme file.
+* `November 21, 2024`: Update full Code.
 
 ## Introduction
 we present YOLO-FD, a multi-task learning network specifically designed for simultaneous detection and segmentation.
