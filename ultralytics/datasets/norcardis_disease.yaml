@@ -1,0 +1,19 @@
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: C:/Users/zhaor/PycharmProjects/ultralytics-main/datasets  # dataset root dir
+train: norcardia_disease_fish/det/images/train  # train images (relative to 'path') 118287 images
+val: norcardia_disease_fish/det/images/val  # train images (relative to 'path') 5000 images
+road_seg_train: norcardia_disease_fish/seg/labels/train   # road sematic segmentation data
+road_seg_val: norcardia_disease_fish/seg/labels/val
+
+# Classes
+nc: 2  # number of classes
+segnc: 1
+
+names:
+  0: Nocardia disease
+  1: normal
+
+
+segnames:
+  0: Infected area
